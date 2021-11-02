@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                echo "In Build stage" 
+                echo "In Build stage1" 
             }
         }
         stage('Deploy') { 
